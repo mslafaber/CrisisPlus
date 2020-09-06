@@ -102,15 +102,19 @@ body {
 .grid .item p {
 	font-size: 14px;
 	color: var(--secondary-color);
-	font-weight: bold;
-	margin-bottom: 20px;
+	font-weight: bolder;
+	margin-bottom: 15px;
 }
 
 .grid .item img {
-	width: 30px;
+    width: 100%;
 	text-align: right;
 	display: block;
-	align-self: flex-left;
+	align-self: flex-end;
+}
+
+.grid .item .desc .highlight {
+    color: var(--primary-color);
 }
 
 /*footer styling belongs here*/
