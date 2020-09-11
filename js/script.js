@@ -2,6 +2,11 @@ setTimeout(() => {
     document.getElementById('splash').classList.toggle('fade');
 }, 2000);
 
-document.getElementById("custombutton").onclick = function () {
-    window.location.assign = "contact.html";
-};
+/* var buttons = document.querySelectorAll("button.item");
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function(evt) {
+        console.log('Clicked', evt.target);
+        evt.preventDefault();
+        window.location.href = contact.html;
+    });
+} */
