@@ -72,7 +72,7 @@ body {
 
 .subheader img {
     width: 100%;
-    height: 100px;
+    height: 200px;
 } 
 
 /*styles for the icon set*/
@@ -201,7 +201,7 @@ a {
 .containermap {
 	display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 600px;
 }
 
 #map {
