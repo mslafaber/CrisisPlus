@@ -104,9 +104,8 @@ body {
 
 .grid .item img {
     width: 100%;
-	text-align: right;
+	text-align: center;
 	display: block;
-	align-self: flex-end;
 }
 
 .grid .item .desc .highlight {
@@ -179,23 +178,32 @@ body {
 
 /*contact page styles*/
 
-.gridcontact {
-	display: grid;
-    grid-template-columns: 2fr 1fr;
-	grid-gap: 10px;
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
 }
 
-.gridcontact .call {
+.subname {
+	text-align: center;
+}
+
+.subheaderimage {
+	width: 50px;
+	height: 100px;
+}
+
+.callimg {
+	width: 500px;
+	height: 200px;
+}
+
+.containermap {
 	display: flex;
-	flex-direction: column;
-	border: 2px #ccc solid;
-	padding: 5px;
-    box-shadow: 1px 1px 2px #ccc;
+    flex-direction: column;
+    height: 400px;
 }
 
-.gridcontact .call .map {
-    width: 100%;
-	text-align: right;
-	display: block;
-	align-self: flex-end;
+#map {
+	height: 250px;
 }

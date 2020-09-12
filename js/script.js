@@ -1,6 +1,6 @@
-setTimeout(() => {
+/* setTimeout(() => {
     document.getElementById('splash').classList.toggle('fade');
-}, 2000);
+}, 2000); */
 
 /* var buttons = document.querySelectorAll("button.item");
 for(let i = 0; i < buttons.length; i++) {
@@ -10,3 +10,10 @@ for(let i = 0; i < buttons.length; i++) {
         window.location.href = contact.html;
     });
 } */
+function pageRedirectfor000() {
+    window.location.href = "000contact.html";
+  }  
+
+function pageRedirecttohome() {
+    window.location.href = "index.html";
+}

@@ -19,27 +19,23 @@
                 </div>
             </header>
             
-
             <div class="subheader">
 				<div>
-					<p class="subheadername">name of the emergency service</p>
+					<p class="subname">Life Threatening Medical/Police or Fire Emergency</p>
                     <!--Image of the sevice-->
                     <img src="images/imageicons/000img.jpg" alt="" class="subheaderimage"/>
 				</div>
 			</div>
 
             <!--add the icons for services-->
-            <div class="gridcontact container">
-                <button class="call">
-                    <h4>Life Threatening Medical/Polica/Fire Emergency</h4>
-                    <img src="images/imageicons/callbtn.jpg" alt="000callicon"/>
-                </button>
-
-                <div class="map">
-                    <p class="desc">Contact for some one has taken an <span class="highlight">overdose</span>, made an <span class="highlight">error with medicine</span> or <span class="highlight">been poisoned</span></p>
-                    <img src="images/imageicons/poison.jpg" alt="poison"/>
+            <div class="grid container">
+                <div class="item">
+                    <h4>Call 000</h4>
+                    <img src="images/imageicons/callbtn.jpg" alt="000callicon" class="callimg"/>
                 </div>
-
+                <div class="map" id="map">
+                    <!--Google map will be embedded here-->
+                </div>
             </div>
 
         </div>
@@ -47,15 +43,18 @@
         <footer class="app-footer">
             <ul>
                 <a href="index.html">
-                <li>
-                    <i class="fa fa-heart">
-                        Home
-                    </i>
-                </li>
+                    <li>
+                        <i class="fa fa-heart">
+                            Home
+                        </i>
+                    </li>
                 </a>
             </ul>
 
         </footer>
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/mapscript.js"></script>
+        <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMs_aHeJuRQvn7vmasq-brKHK4fQgmKMY&callback=initMap">
+    </script>
     </body>
 </html>
