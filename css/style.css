@@ -176,12 +176,12 @@ body {
 	}
 }
 
-/*contact page styles*/
+/*individual page styles*/
 
 a {
 	text-decoration: none;
 	color: black;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .subname {
@@ -206,4 +206,8 @@ a {
 
 #map {
 	height: 250px;
+}
+
+.callname {
+	font-size: 16px;
 }
