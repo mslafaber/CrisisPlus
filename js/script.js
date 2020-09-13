@@ -1,13 +1,15 @@
-if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js").then(registration => {
-        console.log("SW Registered");
-        console.log(registration);
-    }).catch(error => {
-        console.log("SW Registration Failed!");
-        console.log(error); 
-    });
-}
+/* setTimeout(() => {
+    document.getElementById('splash').classList.toggle('fade');
+}, 2000); */
 
+/* var buttons = document.querySelectorAll("button.item");
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function(evt) {
+        console.log('Clicked', evt.target);
+        evt.preventDefault();
+        window.location.href = contact.html;
+    });
+} */
 function pageRedirectfor000() {
     window.location.href = "000contact.html";
   }
