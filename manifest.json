@@ -1,0 +1,58 @@
+{
+    "name": "CrisisPlus Application",
+    "short_name": "CrisisPlus",
+    "start_url": ".",
+    "background_color": "#f8f8ff",
+    "theme_color": "#ff0000",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/imageicons/000img.jpg",
+            "sizes": "250x250",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/callbtn.jpg",
+            "sizes": "400x400",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/crimestoppers1.jpg",
+            "sizes": "251x251",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/floods.jpg",
+            "sizes": "660x660",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/healthdirect.jpg",
+            "sizes": "544x544",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/logo1.PNG",
+            "sizes": "281x72",
+            "type": "image/PNG",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/poison.jpg",
+            "sizes": "262x262",
+            "type": "image/jpg",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/imageicons/suisideprevention.png",
+            "sizes": "626x626",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
